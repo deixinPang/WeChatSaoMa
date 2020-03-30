@@ -1,0 +1,5 @@
+<!--pages/my/关于我们/guanyu.wxml-->
+<view class="gy">
+<text>微信：pang137247\n电话：13724760839</text>
+</view>
+

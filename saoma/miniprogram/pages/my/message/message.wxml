@@ -1,0 +1,5 @@
+<!--pages/my/message/message.wxml-->
+<form bindsubmit="bindFormSubmit" name="message">
+<textarea  placeholder="请留言,最多500字" maxlength="500" name="textarea"/>
+<button form-type="submit"> 提交 </button> 
+</form>
