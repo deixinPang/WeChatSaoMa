@@ -52,14 +52,14 @@ public class AutoGetAccessToken {
     System.out.println("expires_in="+expires_in);
     return accessToken;
 
-    //存数据库
-    Date date = new Date();
-    String gmtString = date.toLocaleString();
-    AccessToken Token = new AccessToken();
-    Token.setAccess_token(accesstoken);
-    Token.setUpdate_date(gmtString);
-
-    mettingService.accessToken(Token);
+//    //存数据库
+//    Date date = new Date();
+//    String gmtString = date.toLocaleString();
+//    AccessToken Token = new AccessToken();
+//    Token.setAccess_token(accesstoken);
+//    Token.setUpdate_date(gmtString);
+//
+//    mettingService.accessToken(Token);
 
   }
 
